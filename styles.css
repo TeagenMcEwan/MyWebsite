@@ -1,0 +1,22 @@
+body{
+    background-color: #f75990;
+    flex: wrap;
+}
+
+header nav{
+    text-align: right;
+}
+
+flexbox container {
+
+}
+
+div.form {
+
+}
+
+footer {
+    background-color: #f7ec72; 
+    text-align: center;
+    padding: 5px;
+}
