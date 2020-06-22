@@ -1,43 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet');
 
 html {
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    background-color: #F75990;
-}
-
-Body { 
-	Margin: 20px;
-    Display: block;
-    flex: wrap;
+    font-family: 'Lobster', cursive;
 }
 
 header {
     font-size: 3rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     margin-bottom: 20px;
+    background-color: #F75990;
+    }
+
+body { 
+        Margin: 20px;
+        Display: block;
+        flex: wrap;
+        background-color: #F75990;
     }
 
 nav {
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #F75990;
     }
-    
-img {
-    width: 300px;
-    height: 200px;
+
+div.bannerimage {
+    object-position: center;
 }
 
-div {
+div.profileimage {
+    object-position: middle;
+}
+
+div.projectimage {
+    flex-wrap: flex-start:
+}
+
+#div-1 {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
     padding: 10px;
-}
-
+    text-align: center;
+    align-content: stretch;
 }
 
 footer {
     background-color: #f7ec72; 
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
