@@ -1,17 +1,38 @@
-body{
-    background-color: #f75990;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet');
+
+html {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F75990;
+}
+
+Body { 
+	Margin: 20px;
+    Display: block;
     flex: wrap;
 }
 
-header nav{
-    text-align: right;
+header {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    }
+    
+img {
+    width: 300px;
+    height: 200px;
 }
 
-flexbox container {
-
+div {
+    padding: 10px;
 }
-
-div.form {
 
 }
 
