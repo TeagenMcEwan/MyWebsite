@@ -8,29 +8,30 @@ nav {
     background-color: #f7ec72;
     object-position: center;
     padding: 20px;
+    font-size: 20px;
     }
 
 body { 
     background-color: #F75990;
     display: flex;
     justify-content: right;
-    padding: 30px;
     flex-wrap: wrap;
     }
 
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 40px;
-    display: flex;
     justify-content: center;
+    vertical-align: middle;
     }
 
-#footer {
-    background-color: #f7ec72; 
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    padding: 10px;
-    margin-top: 100px;
+#banner-image{
+
+    }
+
+#profile-image {
+    padding: 20px;
+    vertical-align: middle;
 }
 
 #intro-text {
@@ -40,7 +41,15 @@ h1 {
 #work-samples {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
     
+}
+
+footer {
+    background-color: #f7ec72; 
+    text-align: stretch;
+    padding: 20px;
 }
 
