@@ -2,32 +2,28 @@
 
 html {
     font-family: 'Lobster', cursive;
-    font-family: 'Roboto', regular italic;
 }
 
 header {
     font-family: 'Lobster', cursive;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
+    margin: 30px;
+    background-color: #F75990;
+    }
+
+nav {
+    font-size: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
     background-color: #F75990;
     }
 
 body { 
-        Display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-content: center;
-        background-color: #F75990;
-
-    }
-
-nav {
-    margin: 5px;
-    padding: 5px;
-    font-size: 30px;
     background-color: #F75990;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
     }
 
 h1 {
@@ -35,49 +31,16 @@ h1 {
     font-size: 40px;
     display: flex;
     justify-content: center;
-}
-
-h2 {
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-}
+    }
 
 footer {
     background-color: #f7ec72; 
+    font-family: 'Lobster', cursive;
     text-align: center;
     padding: 10px;
     margin-top: 100px;
 }
 
-.container {
-    display: flex;
-}
+. flexbox-container-projects {
 
-#bannerimage {
-    text-align: center;
-}
-
-#profileimage {
-    text-align: center;
-}
-
-#skills {
-    font-size: 20px;
-    text-align: center;
-}
-
-#aboutme {
-    font-size: 20px;
-    text-align: center;
-}
-
-#workexamples {
-    font-size: 20px;
-    text-align: center;
-}
-
-#footer {
-    font-family: 'Lobster', cursive;
 }
