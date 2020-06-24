@@ -2,52 +2,82 @@
 
 html {
     font-family: 'Lobster', cursive;
+    font-family: 'Roboto', regular italic;
 }
 
 header {
-    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 15px;
     background-color: #F75990;
     }
 
 body { 
-        Margin: 20px;
-        Display: block;
-        flex: wrap;
+        Display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
         background-color: #F75990;
+
     }
 
 nav {
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #F75990;
     }
 
-div.bannerimage {
-    object-position: center;
-}
-
-div.profileimage {
-    object-position: middle;
-}
-
-div.projectimage {
-    flex-wrap: flex-start:
-}
-
-#div-1 {
+h1 {
     font-family: 'Lobster', cursive;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
-    align-content: stretch;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
     background-color: #f7ec72; 
     text-align: center;
     padding: 10px;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+#bannerimage {
+    text-align: center;
+}
+
+#profileimage {
+    text-align: center;
+}
+
+#skills {
+    font-size: 20px;
+    text-align: center;
+}
+
+#aboutme {
+    font-size: 20px;
+    text-align: center;
+}
+
+#workexamples {
+    font-size: 20px;
+    text-align: center;
+}
+
+#footer {
+    font-family: 'Lobster', cursive;
 }
