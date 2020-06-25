@@ -36,6 +36,7 @@ h2 {
 }
 
 p {
+    font-family: 'Roboto', Regular italic; 
     font-size: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -47,22 +48,36 @@ div.banner {
 
 div.intro {
     font-family: 'Lobster', cursive;
-    font-size: 20px; 
-    padding: 20px; 
+    font-size: 20px;  
+    padding-top: 30px;;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;   
     text-align: center;
     align-content: center;
 }
 
 div.work {
+    display: flex; 
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px; 
 }
 
 div.portfolio {
+    text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 20px; 
-    padding: 20px; 
-    justify-content: center; 
+    padding: 20px;
+}
+
+div.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; 
+    padding: 30px; 
 }
 
 footer {
