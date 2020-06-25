@@ -56,17 +56,14 @@ div.intro {
 div.work {
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
-div.flexbox-container-projects {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 10px;
+div.portfolio {
+    font-family: 'Lobster', cursive;
+    font-size: 20px; 
+    padding: 20px; 
+    justify-content: center; 
 }
-
 
 footer {
     background-color: #f7ec72;
