@@ -1,55 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 html {
     font-family: 'Lobster', cursive;
+    background-color: #F75990;
 }
-
-nav {
-    background-color: #f7ec72;
-    object-position: center;
-    padding: 20px;
-    font-size: 20px;
-    }
 
 body { 
     background-color: #F75990;
     display: flex;
-    justify-content: right;
+    flex-direction: column; 
     flex-wrap: wrap;
-    }
+    justify-content: center;
+    align-content: 60vh;
+    padding-bottom: 10px;
+ }
+
+header {
+    color: #3f3d3d;
+}
+
+nav {
+    background-color: #f7ec72;
+    padding: 20px;
+    font-size: 20px;
+}
 
 h1 {
-    font-family: 'Lobster', cursive;
     font-size: 40px;
     justify-content: center;
-    vertical-align: middle;
-    }
-
-#banner-image{
-
-    }
-
-#profile-image {
-    padding: 20px;
-    vertical-align: middle;
 }
 
-#intro-text {
-
+h2 {
+    font-size: 25px;
+    justify-content: center; 
 }
 
-#work-samples {
-    flex-direction: row;
+p {
+    font-size: 20px;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
-    
 }
+
+div.banner {
+    margin: 0px;
+}
+
+div.intro {
+    font-family: 'Lobster', cursive;
+    font-size: 20px; 
+    padding: 20px; 
+    text-align: center;
+    align-content: center;
+}
+
+div.work {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.flexbox-container-projects {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
 
 footer {
-    background-color: #f7ec72; 
-    text-align: stretch;
-    padding: 20px;
+    background-color: #f7ec72;
+    padding: 10px;
+    color: #3f3d3d;
+    font-size: 15px;
+    text-align: center;
 }
-
