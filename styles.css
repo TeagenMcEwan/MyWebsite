@@ -24,6 +24,10 @@ nav {
     font-size: 20px;
 }
 
+a:hover {
+    background: #40D2F7;
+}
+
 h1 {
     font-size: 40px;
     justify-content: center;
@@ -95,78 +99,63 @@ div.projects {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-/* 
+
 div.contact {
     font-family: 'Lobster', cursive;
     font-size: 20px; 
     padding-top: 5px;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 500px;
+    padding-left: 500px;
     padding-bottom: 5px; 
-    text-align: center; */
-
-/* div.logos {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    }
-
-div.form-item {
-    display: flex; 
-    /* flex-direction: column; */
-    /* align-content: center;
     text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 30px; 
-    padding: 50px;   
 }
 
 div.logos {
     display: flex;
     justify-content: center;
     padding: 10px;
-} */ 
+}
 
-/* div.form {
-    flex-direction: column; 
-    align-content: center; 
-    max-width: 500px; 
+div.form-item {
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    margin: 10px;
-    border: 3px solid #f7ec72;
-    padding: 25px;
-} */
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
 
-/* div.label {
-    display: block;
-    padding: 20px 30px 20px 30px;
-    font-size: 20px;
-    } */
-
-/* div.input, textarea {
-    display: block;
-    width: 100%;
+div.label {
+    display: block-inline;
+    text-align: center;
+    width: 500px;
     border: 2px solid  #40D2F7;
     padding: .5rem;
     font-size: 18px;
-    border-radius: 5px;
-    } */
+    border-radius: 20px;
+}
 
-/* div.button {
-    border: 0;
-    background: #f7ec72;
-    padding: .5rem;
-    margin: 1rem 0;
-    width: auto;
-    text-transform: uppercase;
-    cursor: pointer;
-} */
+div.input textarea {
+    display: block-inline;
+    width: 800px;
+    border: 2.5px solid  #40D2F7;
+    padding: 1rem;
+    font-size: 18px;
+    border-radius: 5rem;
+    }
+
+div.button {
+    align-content: center;;
+}
 
 a:hover {
     background: #40D2F7;
 }
 
 footer {
+    display: inline-block;
     background-color: #f7ec72;
     padding: 20px;
     font-size: 15px;
