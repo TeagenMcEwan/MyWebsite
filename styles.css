@@ -36,7 +36,7 @@ h2 {
 }
 
 p {
-    font-family: 'Roboto', Regular italic; 
+    font-family: 'Roboto', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -74,10 +74,63 @@ div.portfolio {
 
 div.projects {
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
     flex-wrap: wrap;
     align-content: center; 
-    padding: 30px; 
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+div.contact {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 20px; 
+    padding: 20px; 
+}
+
+div.logos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.form {
+    max-width: 500px; 
+    text-align: flex-start;
+    margin: 10px;
+    border: 3px solid #f7ec72;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+div.label {
+    display: block;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    }
+
+div.input, textarea {
+    display: block;
+    width: 100%;
+    border: 2px solid  #40D2F7;
+    padding: .5rem;
+    font-size: 18px;
+    border-radius: 5px;
+    }
+
+div.button {
+    border: 0;
+    background: #f7ec72;
+    padding: .5rem;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a.hover {
+    background: #40D2F7;
 }
 
 footer {
