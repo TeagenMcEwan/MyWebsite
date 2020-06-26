@@ -12,10 +12,14 @@ body {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
+    margin: 0 auto;
+    width: 100%; 
+    padding-top: 5px;
  }
 
 header {
     color: black;
+    text-align: left;
 }
 
 nav {
@@ -53,43 +57,42 @@ div.banner {
 
 div.intro {
     font-family: 'Lobster', cursive;
-    font-size: 20px;  
-    padding-top: 30px;;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-bottom: 10px;   
+    font-size: 20px; 
     text-align: center;
-    align-content: center;
+    margin: 15px auto;
+    width: 90%; 
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
 }
 
 div.work {
-    flex-basis: 100px;
+    margin: 10px auto;
+    width: 90%; 
+    padding-top: 5px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-bottom: 20px; 
+    flex-wrap: nowrap;
 }
 
 div.portfolio {
     font-family: 'Lobster', cursive;
     font-size: 20px; 
-    padding-top: 5px;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-bottom: 5px; 
     text-align: center;
+    margin: 15px auto;
+    width: 90%; 
+    padding-top: 5px;
 }
 
 div.projects {
-    /* flex-basis: 100px; */
     justify-content: center; 
     align-items: center;
     padding-top: 5px;
     padding-right: 45px;
     padding-left: 45px;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
     font-size: 25px;
 }
 
@@ -103,59 +106,62 @@ div.projects {
 div.contact {
     font-family: 'Lobster', cursive;
     font-size: 20px; 
+    text-align: center;
+    margin: 15px auto;
+    width: 90%; 
     padding-top: 5px;
-    padding-right: 500px;
-    padding-left: 500px;
-    padding-bottom: 5px; 
-    text-align: center;
 }
 
-div.logos {
+form {
+    margin: 50px auto;
+    width: 90%; 
+}
+
+.form-item {
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    justify-content: center; 
+    align-items: center;
+    padding: 5px; 
 }
 
-div.form-item {
-    justify-content: center;
-    margin: 0 auto;
-    width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    display: inline-block;
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
 }
 
-div.label {
-    display: block-inline;
-    text-align: center;
-    width: 500px;
-    border: 2px solid  #40D2F7;
-    padding: .5rem;
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2.5px solid #40D2F7;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2.5px solid #40D2F7;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2.5px solid #40D2F7;
+    background-color: #f7ec72;
+    padding: 5px;
     font-size: 18px;
-    border-radius: 20px;
 }
 
-div.input textarea {
-    display: block-inline;
-    width: 800px;
-    border: 2.5px solid  #40D2F7;
-    padding: 1rem;
-    font-size: 18px;
-    border-radius: 5rem;
-    }
-
-div.button {
-    align-content: center;;
+.form-item button:hover {
+    border: 2.5px solid #40D2F7;
+    background-color: #f7ec72;
+    color: #F75990;
 }
 
-a:hover {
-    background: #40D2F7;
+.form-item button {
+    width: 100px;
 }
 
 footer {
-    display: inline-block;
+    margin: 0 auto;
+    width: 100%; 
     background-color: #f7ec72;
     padding: 20px;
     font-size: 15px;
