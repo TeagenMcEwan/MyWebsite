@@ -51,7 +51,7 @@ p {
     font-size: 18px;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 5px;
 }
 
 div.banner {
@@ -65,20 +65,19 @@ div.intro {
     text-align: center;
     margin: 15px auto;
     width: 90%; 
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 5px;
 }
 
 div.work {
+    text-align: center;
     margin: 10px auto;
-    width: 90%; 
-    padding-top: 5px;
-    padding-bottom: 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    padding-top: 1px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 15px;
 }
 
 div.portfolio {
@@ -88,6 +87,8 @@ div.portfolio {
     margin: 15px auto;
     width: 100%; 
     padding-top: 5px;
+    padding-right: 45px;
+    padding-left: 45px;
 }
 
 div.projects {
